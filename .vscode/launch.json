@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: build_datasets.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/model/build_datasets.py",
+            "console": "integratedTerminal",
+            "args": [
+                "/home/sharath/code/pix2code/datasets/ios/all_data"
+            ],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: train.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/model/train.py",
+            "console": "integratedTerminal",
+            "args": [
+                "/home/sharath/code/pix2code/datasets/web/training_features",
+                "/home/sharath/code/pix2code/bin",
+                "1"
+            ],
+            "justMyCode": true
+        }
+    ]
+}
